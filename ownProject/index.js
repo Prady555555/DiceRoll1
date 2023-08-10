@@ -1,10 +1,10 @@
 function main(){
 var random1 = Math.floor(Math.random()*6)+1;
-var picture = "../project-1/Dicee Challenge - Starting Files/Dicee Challenge - Starting Files/images/dice"+random1+".png";
+var picture = "../ownProject/images/dice"+random1+".png";
 var image1 = document.querySelectorAll("img")[0].setAttribute("src",picture);
 
 var random2 = Math.floor(Math.random()*6)+1;
-var picture = "../project-1/Dicee Challenge - Starting Files/Dicee Challenge - Starting Files/images/dice"+random2+".png";
+var picture = "../ownProject/images/dice"+random2+".png";
 var image2 = document.querySelectorAll("img")[1].setAttribute("src",picture);
 
 if(random1>random2){
