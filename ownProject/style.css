@@ -1,0 +1,30 @@
+body{
+    background-color: #FFF0F5;
+}
+
+#full{
+    background-color: #FFF0F5;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   
+}
+h1{
+    
+    font-size: 4rem;
+    font-family: 'Borel', cursive;
+}
+.name{
+     display: inline-block;
+    font-size: 2rem;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+}
+img{
+    width: 60%;
+}
